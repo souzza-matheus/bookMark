@@ -8,40 +8,10 @@
     tools:context=".MainActivity">
 
    <ScrollView
-       android:layout_above="@id/linear_layout"
        android:layout_alignParentTop="true"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:layout_margin="8dp">
-       <TextView
-           android:textSize="22sp"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:id="@+id/text_data"
-           android:textColor="@color/black"
-           android:text="Text or capture text with a picture"/>
-   </ScrollView>
-    <LinearLayout
-        android:id="@+id/linear_layout"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Capture"
-            android:layout_margin="8dp"
-            android:id="@+id/byn_capture"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Copy Text"
-            android:layout_margin="8dp"
-            android:id="@+id/btn_copy"
-            />
-    </LinearLayout>
+       android:layout_margin="8dp"/>
+
         
 </RelativeLayout>
